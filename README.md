@@ -118,3 +118,7 @@ The application uses a simple User model with:
 - `name`: Optional name field
 - `createdAt`: Creation timestamp
 - `updatedAt`: Last update timestamp
+
+
+uvicorn app.main:app --reload --port 8000
+running command
